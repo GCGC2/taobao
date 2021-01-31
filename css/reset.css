@@ -1,64 +1,91 @@
-body,p,h1,h2,h3,h4{
+body,
+p,
+h1,
+h2,
+h3,
+h4 {
     margin: 0;
 
 }
-ul{
+
+ul {
     margin: 0;
     padding: 0;
     list-style: none;
 }
 
-img{
+img {
     border: none;
-        /* border在IE浏览器中才有 */
+    /* border在IE浏览器中才有 */
     vertical-align: middle;
 }
 
-a{
+a {
     text-decoration: none;
     color: #3c3c3c;
 }
 
-i{
+i {
     font-style: normal;
 }
 
-input, button{
+input,
+button {
     margin: 0;
     padding: 0;
 }
 
-button{
+button {
     outline: none;
 }
 
 /* 添加默认样式 */
-body{
-    font: 12px/1.5 tahoma,arial,'Hiragino Sans GB','\5b8b\4f53',sans-serif;
-    color:#3c3c3c;
+body {
+    font: 12px/1.5 tahoma, arial, 'Hiragino Sans GB', '\5b8b\4f53', sans-serif;
+    color: #3c3c3c;
     background-color: #f4f4f4;
 }
 
 /* 预定义样式 */
 
 /* 添加浮动 */
-.fl{
+.fl {
     float: left;
 }
-.fr{
+
+.fr {
     float: right;
 }
 
 /* 清除浮动 */
-.clear-float::after{
-    content:"";
+.clear-float::after {
+    content: "";
     display: block;
     clear: both;
 }
 
 /* 页面留白区域自适应 */
-.layer{
+.layer {
     width: 1190px;
     margin: 0 auto;
 }
 
+.c4 {
+    color: #f40;
+}
+
+.c5 {
+    color: #f50;
+}
+
+.c9c{
+    color: #9c9c9c;
+}
+
+.mr-5 {
+    margin-right: 5px;
+}
+
+.mr-7 {
+    margin-right: 7px;
+}
