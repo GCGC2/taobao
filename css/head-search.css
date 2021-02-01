@@ -1,0 +1,156 @@
+/* 头部搜索 */
+
+#head-search {
+    background-color: #fff;
+    padding: 24px 0 10px 0;
+}
+
+#head-search h1 a {
+    display: block;
+    width: 190px;
+    height: 58px;
+    background: url(../images/logo.png) center no-repeat;
+    text-indent: -9999px;
+    overflow: hidden;
+    margin-top: 8px;
+}
+
+#head-search .code {
+    position: relative;
+    width: 74px;
+    height: 88px;
+    border: 1px solid #eee;
+    margin-right: 110px;
+    text-align: center;
+}
+
+#head-search .code img {
+    width: 62px;
+    height: 62px;
+}
+
+#head-search .code .close {
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    text-align: center;
+    line-height: 14px;
+    font-size: 14px;
+    border: 1px solid #eee;
+    left: -16px;
+    color: #ddd;
+    top: -1px;
+    cursor: pointer;
+}
+
+#head-search .search {
+    width: 630px;
+    margin: 0 auto;
+}
+
+#head-search .search-tab {
+    height: 22px;
+    padding-left: 17px;
+}
+
+#head-search .search-tab li {
+    float: left;
+    width: 36px;
+    text-align: center;
+    line-height: 22px;
+    margin-right: 4px;
+    color: #f40;
+    cursor: pointer;
+}
+
+#head-search .search-tab li.active {
+    background-color: #ffeee5;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 6px 6px 0 0;
+    background-image: linear-gradient(to right, #ff9000, #ff5000);
+    /* IE兼容 */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffff9000',endColorstr='#ffff5000',GradientType=1);
+}
+
+#head-search .search-tab li:hover {
+    background-color: #ffeee5;
+}
+
+
+#head-search .search-content{
+    height: 40px;
+
+}
+
+#head-search .search-box{
+    width: 554px;
+    height: 40px;
+    box-sizing: border-box;
+    border: 2px solid #ff5000;
+    border-right: none;
+    border-radius: 20px 0 0 20px;
+    overflow: hidden;
+    position: relative;
+    /* 父级相对定位,因为搜索框和几个图标与其是重叠的 */
+}
+
+#head-search .search-box input{
+    width: 490px;
+    height: 36px;
+    line-height: 36px;
+    outline: none;
+    border: none;
+    text-indent: 10px;
+    position: absolute;
+    z-index: 2;
+    background-color: transparent;
+}
+
+#head-search .search-box .placeholder{
+    position: absolute;
+    height: 36px;
+    line-height: 36px;
+    top:0px;
+    /* top:6px  直接设置值也可以居中 */
+    left: 14px;
+}
+
+#head-search .search-box .placeholder span{
+    color: #9c9c9c;
+    /* vertical-align: 1px; */
+}
+#head-search .search-box .camera{
+    position: absolute;
+    right: 20px;
+    font-size: 26px;
+    height: 36px;
+    line-height: 36px;
+    color: #9c9c9c;
+    cursor: pointer;
+}
+
+#head-search .search-btn button{
+    width: 74px;
+    height: 40px;
+    text-align: center;
+    line-height: 36px;
+    border: 2px solid #ff5000;
+    border-left: none;
+    border-radius: 0 20px 20px 0;
+    background-image: linear-gradient(to right, #ff9000, #ff5000);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffff9000',endColorstr='#ffff5000',GradientType=1);
+    color: #fff;
+    font-size: 18px;
+    cursor:pointer;
+    box-sizing: border-box;
+}
+
+#head-search .hot-key{
+    height: 25px;
+    line-height: 25px;
+}
+#head-search .hot-key a:hover{
+    color: #f50;
+}
+

@@ -60,7 +60,7 @@ body {
 }
 
 /* 清除浮动 */
-.clear-float::after {
+.clearfix::after {
     content: "";
     display: block;
     clear: both;
