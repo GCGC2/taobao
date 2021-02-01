@@ -1,0 +1,71 @@
+/* 头部广告 */
+
+#head-ad {
+    background-color: #f12f04;
+}
+
+#head-ad .go {
+    display: block;
+    padding: 10px 10px 10px 10px;
+}
+
+#head-ad .go img {
+    width: 80px;
+    height: 80px;
+}
+
+#head-ad ul {
+    padding-top: 13px;
+}
+
+#head-ad li {
+    float: left;
+    width: 209px;
+    height: 75px;
+    margin-right: 10px;
+    padding: 12px 15px 0 15px;
+    box-sizing: border-box;
+}
+
+#head-ad .item-1 {
+    background: url(../images/adbg_01.png);
+}
+
+#head-ad .item-2 {
+    background: url(../images/adbg_02.png);
+}
+
+#head-ad .item-3 {
+    background: url(../images/adbg_03.png);
+}
+
+#head-ad .item-4 {
+    background: url(../images/adbg_04.png);
+}
+
+#head-ad .item-5 {
+    background: url(../images/adbg_05.png);
+    margin-right: 0;
+}
+
+#head-ad li a {
+    color: #fff;
+    display: block;
+}
+
+#head-ad li h3 {
+    font-size: 20px;
+    line-height: 28px;
+}
+
+#head-ad li p {
+    font-size: 14px;
+    line-height: 20px;
+}
+#head-ad li a img {
+    width: 52px;
+    height: 52px;
+    border-radius: 5px;
+}
+
+

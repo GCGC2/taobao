@@ -1,4 +1,4 @@
-@import "reset.css";
+/* 头部信息 */
 
 @font-face {
     font-family: 'iconfont';
@@ -32,6 +32,9 @@
     font-size: 12px;
 }
 #head-message li a:hover span{
+    color: #f40;
+}
+#head-message li a:hover{
     color: #f40;
 }
 
