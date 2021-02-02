@@ -11,30 +11,153 @@
 #first-screen .left-nav {
     width: 190px;
     height: 522px;
-    background-color: #9c9c9c;
+    background-color: #fff;
+    border: 1px solid #ff5000;
+    border-top: none;
+    padding-top: 5px;
+    box-sizing: border-box;
+}
+
+#first-screen .left-nav li {
+    position: relative;
+    height: 32px;
+    line-height: 32px;
+    padding-left: 25px;
+    color: #666;
+    transition: background-color .3s;
+    font-size: 14px;
+}
+
+#first-screen .left-nav li:hover {
+    background-color: #ffe4dc;
+    color: #f40;
+}
+
+#first-screen .left-nav li:hover a {
+    color: #f40;
+}
+
+#first-screen .left-nav li a {
+    font-size: 14px;
+    color: #666;
+    transition: background-color .3s;
+}
+
+#first-screen .left-nav li a:hover {
+    text-decoration: underline;
+}
+
+#first-screen .left-nav span {
+    position: absolute;
+    right: 10px;
+    font-size: 12px;
+    height: 32px;
+    line-height: 32px;
+    /* margin-right: 5px; */
 }
 
 /* 轮播图-1 */
 #first-screen .banner1 {
+    /* position: relative; */
     width: 690px;
-    height: 282px;
+    height: 280px;
     background-color: #eee;
+    margin-top: 10px;
 }
+
+#first-screen .pic {
+    position: relative;
+    width: 520px;
+}
+
+#first-screen .pic button{
+    width: 20px;
+    height: 30px;
+    line-height: 30px;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    background-color: rgba(0, 0, 0, .3); /* 支持情况:IE9+ */
+    /* 兼容IE */
+    background-color: #000\9; /* \9意为让IE9以下的浏览器认识 */
+    filter: alpha(opacity=30); /* 透明 */
+    position: absolute;
+    top:50%;
+    margin-top: -15px;
+
+    display: none;
+}
+#first-screen .pic button.r-btn{
+    border-radius: 0 15px 15px 0;
+}
+
+#first-screen .pic button.l-btn{
+    right: 0;
+    border-radius: 15px 0 0 15px;
+}
+
+#first-screen .pic:hover button{
+    display: block;
+}
+
+#first-screen .pic .circle{
+    position: absolute;
+    bottom: 15px;
+    left: calc(50% - 7px * 5);
+    font-size: 0;
+    padding: 3px 0;
+    background-color: rgba(255, 255, 255, .3);
+    border-radius: 10px;
+}
+#first-screen .pic .circle span{
+    width: 8px;
+    height: 8px;
+    display: inline-block;
+    border-radius: 50%;
+    background-color: #fff;
+    margin: 2px 3px;
+    cursor: pointer;
+}
+#first-screen .pic .circle span.active{
+    background-color: #ff5000;
+}
+
+#first-screen .ad{
+    width: 160px;
+}
+#first-screen .ad img{
+    width: 160px;
+}
+
+
+
 
 /* 轮播图-2 */
 #first-screen .banner2 {
+    /* position: absolute; */
     width: 690px;
     height: 230px;
     background-color: #ccc;
     margin-top: 10px;
 }
 
+
+
+
+
+
 /* 淘宝头条 */
 #first-screen .news {
     width: 890px;
     height: 100px;
     background-color: #ff4000;
+
 }
+
+
+
+
+
 
 /* 右板块 */
 #first-screen .first-right {

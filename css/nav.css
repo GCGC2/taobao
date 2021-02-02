@@ -39,7 +39,8 @@
 
 #nav ul li.large-size{
     font-size: 16px;
-    padding: 0 25px;
+    margin: 0 10px;
+    /* padding: 0 25px; */
 }
 
 #nav ul li a{
