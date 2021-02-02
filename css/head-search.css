@@ -1,8 +1,10 @@
 /* 头部搜索 */
 
 #head-search {
+    position: relative;
     background-color: #fff;
     padding: 24px 0 10px 0;
+    z-index: -10 ;
 }
 
 #head-search h1 a {
@@ -50,12 +52,14 @@
 
 #head-search .search-tab {
     height: 22px;
+    line-height: 22px;
     padding-left: 17px;
 }
 
 #head-search .search-tab li {
     float: left;
     width: 36px;
+    height: 22px;
     text-align: center;
     line-height: 22px;
     margin-right: 4px;

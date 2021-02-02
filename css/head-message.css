@@ -19,8 +19,12 @@
 }
 
 /* 头部信息 */
+#head-message {
+    border-bottom:1px solid #eee;
+}
 #head-message li {
     float: left;
+    height: 35px;
     line-height: 35px;
     padding: 0 6px;
     font-size: 0;

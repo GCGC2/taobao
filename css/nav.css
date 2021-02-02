@@ -1,0 +1,62 @@
+/* 导航 */
+
+.nav-bg{
+    background-image: linear-gradient(to right, #ff9000, #ff5000);
+}
+
+#nav{
+    position: relative;
+}
+
+#nav h2{
+    width: 190px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    background-color: #f50;
+}
+
+#nav ul {
+    left: 190px;
+    width: calc(100% - 190px);
+    z-index: 10;
+}
+
+#nav ul li{
+    position: relative;
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    margin-left: 7px;
+    font-size: 14px;
+    color: #fff;
+    padding: 0 5px;
+}
+
+#nav ul li.large-size{
+    font-size: 16px;
+    padding: 0 25px;
+}
+
+#nav ul li a{
+    color: #fff;
+    font-weight: 700;
+    line-height: 30px;
+    cursor: pointer;
+}
+
+#nav ul li:hover::before{
+    content: "";
+    position: absolute;
+    background-image: url(../images/ico_02.gif);
+    width: 24px;
+    height: 23px;
+    top: -13px;
+    left: 50%;
+    margin-left: -12px;
+    z-index: -1;
+}
