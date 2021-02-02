@@ -1,0 +1,44 @@
+/* 首屏内容结构 */
+
+/* 左板块 */
+#first-screen .first-left {
+    width: 890px;
+    height: 621px;
+    background-color: rgba(8, 236, 248, 0.3);
+}
+
+/* 左板块-左侧导航 */
+#first-screen .left-nav {
+    width: 190px;
+    height: 522px;
+    background-color: #9c9c9c;
+}
+
+/* 轮播图-1 */
+#first-screen .banner1 {
+    width: 690px;
+    height: 282px;
+    background-color: #eee;
+}
+
+/* 轮播图-2 */
+#first-screen .banner2 {
+    width: 690px;
+    height: 230px;
+    background-color: #ccc;
+    margin-top: 10px;
+}
+
+/* 淘宝头条 */
+#first-screen .news {
+    width: 890px;
+    height: 100px;
+    background-color: #ff4000;
+}
+
+/* 右板块 */
+#first-screen .first-right {
+    width: 290px;
+    height: 621px;
+    background-color: #000;
+}
