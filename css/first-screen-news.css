@@ -1,0 +1,70 @@
+/* 淘宝头条 */
+
+#first-screen .first-left .news {
+    width: 890px;
+    height: 100px;
+    background-color: #fff;
+    margin-top: 10px;
+    padding: 13px 13px 13px 20px;
+    box-sizing: border-box;
+}
+
+#first-screen .news .head h3 {
+    width: 129px;
+    height: 26px;
+    background: url(../images/news_logo.png) no-repeat;
+    text-indent: -999px;
+    overflow: hidden;
+}
+
+#first-screen .news .head {
+    margin-top: 15px;
+}
+
+#first-screen .news .head p {
+    color: #999;
+    line-height: 24px;
+}
+
+#first-screen .news .new-list {
+    width: 680px;
+    position: relative;
+}
+
+#first-screen .news .new-list .img {
+    margin-right: 15px;
+}
+
+#first-screen .news .new-list .img img {
+    width: 130px;
+}
+
+#first-screen .news .new-list h4 {
+    line-height: 28px;
+    font-size: 16px;
+    /* font-weight: normal; */
+}
+
+#first-screen .news .new-list h4 a {
+    color: #333;
+}
+#first-screen .news .new-list h4 a:hover {
+    color: #ff5000;
+}
+
+#first-screen .news .new-list p {
+    line-height: 18px;
+    font-size: 14px;
+}
+#first-screen .news .new-list p a {
+    color: #999;
+}
+#first-screen .news .new-list .more{
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #999;
+}
+#first-screen .news .new-list .more:hover{
+    color: #ff5000;
+}

@@ -61,7 +61,7 @@
     /* position: relative; */
     width: 690px;
     height: 280px;
-    background-color: #eee;
+    /* background-color: #eee; */
     margin-top: 10px;
 }
 
@@ -137,7 +137,7 @@
     /* position: absolute; */
     width: 690px;
     height: 220px;
-    background-color: #ccc;
+    /* background-color: #ccc; */
     margin-top: 10px;
 }
 
@@ -197,23 +197,3 @@
 }
 
 
-
-/* 淘宝头条 */
-#first-screen .news {
-    width: 890px;
-    height: 100px;
-    background-color: #ff4000;
-
-}
-
-
-
-
-
-
-/* 右板块 */
-#first-screen .first-right {
-    width: 290px;
-    height: 621px;
-    background-color: #000;
-}
