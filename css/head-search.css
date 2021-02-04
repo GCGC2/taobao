@@ -1,10 +1,14 @@
 /* 头部搜索 */
 
+a{
+    cursor: pointer;
+}
+
 #head-search {
     position: relative;
     background-color: #fff;
     padding: 24px 0 10px 0;
-    z-index: -10 ;
+    z-index: -2 ;
 }
 
 #head-search h1 a {
@@ -107,7 +111,7 @@
     border: none;
     text-indent: 10px;
     position: absolute;
-    z-index: 2;
+    /* z-index: 2; */
     background-color: transparent;
 }
 
