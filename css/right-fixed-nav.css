@@ -1,0 +1,67 @@
+#right-fixed-nav {
+    width: 50px;
+    height: 350px;
+    position: fixed;
+    top: 100px;
+    right: 5%;
+    border-radius: 8px;
+}
+
+#right-fixed-nav span {
+    font-size: 32px;
+    color: #ff7f13;
+    width: 50px;
+    height: 36px;
+    line-height: 36px;
+    position: absolute;
+    text-align: center;
+    top: -28px;
+}
+
+#right-fixed-nav .btn {
+    height: 350px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+#right-fixed-nav .btn a {
+    display: block;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    background-color: #fff;
+    word-break: keep-all;
+    position: relative;
+    padding-top: 6px;
+    box-sizing: border-box;
+    transition: .2s;
+}
+
+#right-fixed-nav .btn a::after {
+    content: "";
+    border-bottom: 1px solid #efefef;
+    width: 34px;
+    position: absolute;
+    left: 8px;
+    /* 右边移8像素,加上宽34像素,为42像素,正好右边还剩8像素 */
+    bottom: 0;
+}
+
+#right-fixed-nav .btn a.item6 {
+    line-height:40px;
+}
+
+#right-fixed-nav .btn a:hover,
+#right-fixed-nav .btn a.active
+{
+    background-image: linear-gradient(135deg, #ff9000, #ff5000);
+    /* IE兼容 */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffff9000',endColorstr='#ffff5000',GradientType=1);
+    color: #fff;
+    font-weight: bold;
+}
+
+#right-fixed-nav .btn a:hover::after ,
+#right-fixed-nav .btn a.active::after{
+    border-bottom: none;
+}
