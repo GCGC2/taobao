@@ -1,0 +1,72 @@
+/* 公告区 */
+
+#first-screen .first-right .notice{
+    height: 108px;
+    background-color: #fff;
+}
+
+
+#first-screen .first-right .title{
+    text-align: center;
+    font-size: 0;
+    padding-top:10px ;
+}
+
+#first-screen .first-right .title li{
+    display: inline-block;
+    font-size: 12px;
+    line-height: 20px;
+    padding: 0 4px;
+    margin: 0 10px;
+    font-weight: 700;
+}
+
+#first-screen .first-right .title li.active{
+    border-bottom: 2px solid #f40;
+}
+
+#first-screen .first-right .title li a:hover{
+    color: #ff5000;
+}
+
+#first-screen .first-right .content{
+    margin: 0 12px;
+    padding-top: 10px ;
+    text-align: center;
+}
+#first-screen .first-right .content li{
+    height: 25px;
+    line-height: 25px;
+    float: left;
+    width: 130px;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+}
+#first-screen .first-right .content li.item1{
+    width: 100%;
+}
+#first-screen .first-right .content li.item1 a{
+    color: #ff5000;
+}
+
+#first-screen .first-right .content li a:hover{
+    color: #ff5000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
