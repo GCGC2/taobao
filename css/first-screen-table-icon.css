@@ -27,6 +27,13 @@
     color: #333;
 }
 
+#first-screen .first-right .icon tr td:first-child{
+    border-left: none;
+}
+#first-screen .first-right .icon tr td:last-child{
+    border-right: none;
+}
+
 #first-screen .first-right .icon .item1 span{
     background-position: 0 0;
 }
@@ -63,3 +70,44 @@
 #first-screen .first-right .icon .item12 span{
     background-position: 0 -484px;
 }
+
+/* 阿里app */
+#first-screen .first-right .app{
+    background-color: #fff;
+    height: 111px;
+}
+
+#first-screen .first-right .app .app-title{
+    height: 30px;
+    line-height: 30px
+}
+
+#first-screen .first-right .app h3{
+    font-size: 14px;
+    padding-left: 14px
+}
+
+#first-screen .first-right .app .app-title a{
+    font-size: 12px;
+    margin-right: 10px
+}
+#first-screen .first-right .app .app-title a:hover{
+    color: #f40;
+}
+
+
+#first-screen .first-right .app .app-icon{
+    text-align: center;
+    font-size: 0;
+}
+#first-screen .first-right .app .app-icon li{
+    display: inline-block;
+    margin: 0 10px 8px 10px;
+}
+
+#first-screen .first-right .app .app-icon li img{
+    width: 32px;
+}
+
+
+
