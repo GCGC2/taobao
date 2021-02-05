@@ -26,6 +26,9 @@
     line-height: 34px;
     color: #333;
 }
+#first-screen .first-right .icon td i:hover {
+    color: #ff5000;
+}
 
 #first-screen .first-right .icon tr td:first-child{
     border-left: none;

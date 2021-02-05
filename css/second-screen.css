@@ -1,0 +1,137 @@
+/* 有好货 */
+
+#second-screen .goods{
+    width: 590px;
+    height: 658px;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+#second-screen .goods .head{
+    height: 24px;
+    line-height: 24px;
+    margin: 20px 0;
+    padding: 0 20px;
+}
+
+#second-screen .goods .head h3{
+    font-size: 0;
+    font-weight: normal;
+}
+
+#second-screen .goods .head h3 img{
+    height: 24px;
+}
+
+#second-screen .goods .head h3 span{
+    /* display: inline-block; */
+    vertical-align: middle;
+    color: #ccc;
+    font-size: 20px;
+    margin: 0 5px;
+}
+
+#second-screen .goods .head h3 i {
+    font-size: 12px;
+    vertical-align: middle;
+    color: #999;
+}
+
+#second-screen .goods .head .change{
+    color: #999;
+}
+
+#second-screen .goods .list{
+    font-size: 0;
+    text-align: center;
+}
+
+#second-screen .goods .list li{
+    width: 180px;
+    display: inline-block;
+    margin:0 2px 35px 2px;
+    text-align: left;
+}
+
+#second-screen .goods .list li img{
+    width: 180px;
+}
+
+#second-screen .goods .list li h4{
+    font-size: 16px;
+    height: 28px;
+    line-height: 28px;
+    font-weight: normal;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+}
+
+#second-screen .goods .list li h4 a:hover{
+    color: #f40;
+}
+
+#second-screen .goods .list li .text{
+    height: 24px;
+    line-height: 24px;
+    font-size: 14px;
+}
+
+#second-screen .goods .list li .text a{
+    color: #999;
+}
+
+#second-screen .goods .list li .comment{
+    display: block;
+    height: 22px;
+    line-height: 22px;
+    font-size: 12px;
+    color: #35beff;
+    margin-top: 12px;
+}
+
+#second-screen .goods .list li .comment span{
+    font-size: 14px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+#second-screen .goods .list li .comment i{
+    vertical-align: middle;
+}
+
+/* 爱逛街 */
+#second-screen .shopping .list li .text{
+    height: 44px;
+    line-height: 22px;
+    font-size: 14px;
+    overflow: hidden;
+    margin-top: 11px;
+}
+
+#second-screen .shopping .list li .text span{
+    font-size: 14px;
+    color: #ebebeb;
+    position: relative;
+    top: -5px;
+}
+
+#second-screen .shopping .list li a:hover{
+    color: #f40;
+}
+
+#second-screen .shopping .list li .comment{
+    color: #999;
+}
+#second-screen .shopping .list li .comment img{
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
+
