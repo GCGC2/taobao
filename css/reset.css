@@ -43,6 +43,15 @@ button {
     cursor: pointer;
 }
 
+table{
+    border-collapse: collapse;
+    /* 边框模式:合并边框 */
+}
+
+th,td{
+    padding: 0;
+}
+
 /* 添加默认样式 */
 body {
     font: 12px/1.5 tahoma, arial, 'Hiragino Sans GB', '\5b8b\4f53', sans-serif;

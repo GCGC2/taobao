@@ -1,0 +1,65 @@
+/* 图标表格 */
+
+#first-screen .first-right .icon{
+    width: 100%;
+    height: 231px;
+    background-color: #fff;
+    table-layout: fixed; /* 定义列宽的算法:fixed的计算方式为根据表格宽度自动计算列宽,每列的宽度均分整个表格的宽度 */
+}
+
+#first-screen .first-right .icon td{
+    border: 1px solid #f4f4f4;
+    text-align: center;
+}
+
+#first-screen .first-right .icon td span{
+    display: block;
+    /* 设置block就不会在一行显示 */
+    width: 24px;
+    height: 24px;
+    margin: 0 auto;
+    background: url(../images/ico.png) no-repeat;
+    text-indent: -9999px;
+}
+
+#first-screen .first-right .icon td i {
+    line-height: 34px;
+    color: #333;
+}
+
+#first-screen .first-right .icon .item1 span{
+    background-position: 0 0;
+}
+#first-screen .first-right .icon .item2 span{
+    background-position: 0 -87px;
+}
+#first-screen .first-right .icon .item3 span{
+    background-position: 0 -44px;
+}
+#first-screen .first-right .icon .item4 span{
+    background-position: 0 -132px;
+}
+#first-screen .first-right .icon .item5 span{
+    background-position: 0 -176px;
+}
+#first-screen .first-right .icon .item6 span{
+    background-position: 0 -220px;
+}
+#first-screen .first-right .icon .item7 span{
+    background-position: 0 -264px;
+}
+#first-screen .first-right .icon .item8 span{
+    background-position: 0 -308px;
+}
+#first-screen .first-right .icon .item9 span{
+    background-position: 0 -352px;
+}
+#first-screen .first-right .icon .item10 span{
+    background-position: 0 -396px;
+}
+#first-screen .first-right .icon .item11 span{
+    background-position: 0 -440px;
+}
+#first-screen .first-right .icon .item12 span{
+    background-position: 0 -484px;
+}
