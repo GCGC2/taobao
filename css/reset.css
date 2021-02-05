@@ -39,11 +39,14 @@ button {
 
 button {
     outline: none;
+    border: none;
+    cursor: pointer;
 }
 
 /* 添加默认样式 */
 body {
     font: 12px/1.5 tahoma, arial, 'Hiragino Sans GB', '\5b8b\4f53', sans-serif;
+    font-family: tahoma, arial, "Hiragino Sans GB", 宋体, sans-serif;
     color: #3c3c3c;
     background-color: #f4f4f4;
     position: relative;
@@ -82,7 +85,7 @@ body {
     color: #f50;
 }
 
-.c9c{
+.c9c {
     color: #9c9c9c;
 }
 

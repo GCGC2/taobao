@@ -2,6 +2,8 @@
 
 .nav-bg{
     background-image: linear-gradient(to right, #ff9000, #ff5000);
+     /* IE兼容 */
+     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffff9000',endColorstr='#ffff5000',GradientType=1);
 }
 
 #nav{
